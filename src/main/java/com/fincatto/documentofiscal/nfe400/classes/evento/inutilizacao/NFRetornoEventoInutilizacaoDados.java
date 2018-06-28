@@ -26,7 +26,7 @@ public class NFRetornoEventoInutilizacaoDados extends DFBase {
     @Element(name = "xMotivo", required = true)
     private String motivo;
 
-    @Element(name = "cUF", required = true)
+    @Element(name = "cUF", required = false)
     private DFUnidadeFederativa uf;
 
     @Element(name = "ano", required = false)
