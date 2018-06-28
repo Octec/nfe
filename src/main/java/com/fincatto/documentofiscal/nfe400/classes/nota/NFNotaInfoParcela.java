@@ -40,7 +40,7 @@ public class NFNotaInfoParcela extends DFBase {
         return this.valorParcela;
     }
 
-    public String getNumeroParcela() {
+    public String getNumeroDuplicata() {
         return this.numeroParcela;
     }
 
