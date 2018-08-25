@@ -13,10 +13,10 @@ public class NFNotaInfoItemImpostoICMSUFDestino extends DFBase {
     @Element(name = "vBCUFDest", required = true)
     private String valorBaseCalculoDestino;
 
-    @Element(name = "vBCFCPUFDest", required = true)
+    @Element(name = "vBCFCPUFDest", required = false)
     private String valorBCFundoCombatePobrezaDestino;
 
-    @Element(name = "pFCPUFDest", required = true)
+    @Element(name = "pFCPUFDest", required = false)
     private String percentualRelativoFundoCombatePobrezaDestino;
 
     @Element(name = "pICMSUFDest", required = true)
